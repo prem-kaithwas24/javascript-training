@@ -1,0 +1,18 @@
+3. Use let and const to create arrays and objects. Try modifying, deleting properties within the array or object. What do you expect to happen in both cases? What actually
+happens in both cases. What is the difference between an object declared as a let or a const variable?
+
+################-----------ANSWER-----------##############
+I observed no difference in performing operations on arrays and objects declared with let or const. All operations were executed successfully, regardless of whether the variable was declared as an array or an object.
+
+The only noticeable difference was in reassignment:
+
+Variables declared with let can be reassigned to a new value.
+
+Variables declared with const cannot be reassigned, though their contents (i.e., properties of objects or elements of arrays) can still be modified.
+
+
+
+
+
+
+

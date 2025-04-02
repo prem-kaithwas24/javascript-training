@@ -1,0 +1,15 @@
+1. Declare a variable-let a;. On another line assign any value you like to a. Log the value of a before and after assignment.
+ Try doing the same with const.
+
+################-----------ANSWER-----------##############
+When I declared a variable with let and assigned a value later, it worked fine. However, when I tried the same with const, I got the following error:
+"Uncaught SyntaxError: Missing initializer in const declaration."
+Got it, const variables must be initialized at the time of declaration.
+
+
+
+
+
+
+
+

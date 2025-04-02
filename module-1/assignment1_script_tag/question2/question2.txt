@@ -1,0 +1,25 @@
+2. Where to attach the script tag:
+<html>
+<head></head>
+<body>
+<h1 id="test">Hello World!</h1>
+
+</body>
+</html>
+
+Given the above html, find out what happens when you try to access the element h1 in
+javascript (using document.getElementById) and change its content to “Goodbye World”
+when the script is attached:
+● in the head tag
+● at the start of the body tag
+● at the end of the body tag
+
+################-----------ANSWER-----------##############
+1. When script is in head tag.
+  :- The script loads before the <h1> tag is added to the DOM, resulting in an Uncaught TypeError. This is because browser will run the script tag as soon as it encounters it.
+
+2. When script is at the start of the body tag.
+  :- The script loads before the <h1> tag is added to the DOM, resulting in an Uncaught TypeError. This is because browser will run the script tag as soon as it encounters it.
+
+3. When script is at the end of the body tag.
+  :- The script worked because the target <h1> tag was already added to the DOM before the browser encountered the script tag.
