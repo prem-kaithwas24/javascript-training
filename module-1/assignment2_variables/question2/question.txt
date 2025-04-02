@@ -1,1 +1,13 @@
 2. Use the typeof operator to find the types of different variables. Specially note what the typeof operator returns for arrays, null values and NaN. How can you find if a variable is an array or NaN besides typeof?
+
+################-----------ANSWER-----------##############
+For arrays, null, and NaN, the typeof operator returns "object", "object", and "number", respectively.
+In addition to typeof, we can use the Array.isArray() method to check whether a variable is an array. Similarly, for NaN, we can use the Number.isNaN() method to determine if a variable is NaN.
+
+
+
+
+
+
+
+
