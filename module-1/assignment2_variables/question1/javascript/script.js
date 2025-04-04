@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
   
   let weather;
-  console.log("Let weather before assignment: ", weather); // Winter
+  console.log("Let weather before assignment: ", weather); // undefined
 
   weather = "Winter";
   console.log("Let weather after assignment: ", weather); // Winter
