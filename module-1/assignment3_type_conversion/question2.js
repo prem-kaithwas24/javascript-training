@@ -8,10 +8,10 @@ switch(true){
     break;
   }
   case (13 <= age && age <= 18): {
-    console.log('teen')
+    console.log('teen');
     break;
   }
   default: {
     console.log('adult');
   }
-}
+};

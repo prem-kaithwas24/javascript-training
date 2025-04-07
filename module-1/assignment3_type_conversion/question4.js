@@ -6,4 +6,4 @@ let i=1;
 while(i <= arraySize){
   console.log(i);
   i++;
-}
+};

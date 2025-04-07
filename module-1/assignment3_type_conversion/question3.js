@@ -4,5 +4,5 @@
 let arraySize = 25;
 
 for(let i=1; i <= arraySize; i++) {
-  console.log(i)
-}
+  console.log(i);
+};

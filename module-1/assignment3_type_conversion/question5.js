@@ -18,4 +18,4 @@ while(i <= arraySize){
 
   console.log(i);
   i++;
-}
+};
