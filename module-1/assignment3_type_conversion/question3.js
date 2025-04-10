@@ -2,7 +2,10 @@
 //    onwards into an array till the arraySize is reached.
 
 let arraySize = 25;
+const array = [1];
 
 for(let i=1; i <= arraySize; i++) {
-  console.log(i);
+  array[0] = array[0] + i;
 };
+
+console.log(array); // [326]
