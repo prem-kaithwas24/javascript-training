@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assingment 3</title>
+    <script src="./q3.js" defer></script>
+
+    <style>
+      .container {
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 12px;
+        height: 300px;
+        border: 1px solid grey;
+        opacity: 0.9;
+        border-radius: 10px;
+      }
+
+      input,
+      textarea {
+        padding: 12px;
+        margin-top: 10px;
+        width: 250px;
+      }
+
+      .submit {
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 12px;
+      }
+      .submit:hover{
+        color: aliceblue;
+        background-color: black;
+      }
+      form {
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Mars Blog</h1>
+
+    <div class="container">
+      <form>
+        <div>
+          <input type="text" placeholder="Blog Title" name="blogTitle" id="blogTitle"/>
+        </div>
+
+        <div>
+          <textarea placeholder="Blog Description" name="blogDescription" id="blogDescription"></textarea>
+        </div>
+
+        <div>
+          <button type="button" class="submit" id="submitBlog">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
