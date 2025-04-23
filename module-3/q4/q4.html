@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./q4.js" async></script>
+    <style>
+      body {
+        margin-left: 100px;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our best blogs, get the most out of them.</h1>
+
+    <p id="loader" class="loader">Loading best ones shortly...</p>
+
+    <table id="blogData">
+      <div>
+        <button id="sortByName">Sort by Name</button>
+      </div>
+
+      <div>
+        <input id="search" placeholder="search" class="search" />
+        <button>search</button>
+      </div>
+
+      <thead>
+        <tr>
+          <td>Id</td>
+          <td>Name</td>
+          <td>Username</td>
+          <td>Email</td>
+          <td>Phone</td>
+        </tr>
+      </thead>
+
+      <tbody id="'blogDataBody"></tbody>
+    </table>
+  </body>
+</html>
